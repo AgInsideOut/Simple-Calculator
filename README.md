@@ -1,4 +1,4 @@
-# Homework 1
+# Homework1
 CFGdegree Summer 2023 Full-stack | Homework | Calculator
 
 >In lieu of developing a basic calculator that solely calculates totals, an alternative approach has been taken to design a simple calculator capable of performing the following operations:
