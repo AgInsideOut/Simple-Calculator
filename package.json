@@ -1,12 +1,21 @@
 {
-  "name": "your-project-name",
+  "homepage": "https://aginsideout.github.io/Simple-Calculator",
+  "name": "simple-salculator",
   "version": "1.0.0",
-  "description": "Your project description",
+  "description": "The application includes a simple calculator that supports dedicated buttons for: Mathematical operations (÷, x, +, -), Decimal point, AC (All Clear) for clearing entered data, Percentage function for automatic conversion to percentages, Negation function for handling negative numbers, In addition, the calculator includes an '=' button that performs the calculation of the entered equation and gives the final result.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
